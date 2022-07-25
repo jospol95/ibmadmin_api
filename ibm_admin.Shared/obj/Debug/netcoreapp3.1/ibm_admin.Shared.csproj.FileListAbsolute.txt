@@ -1,0 +1,10 @@
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\bin\Debug\netcoreapp3.1\ibm_admin.Shared.deps.json
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\bin\Debug\netcoreapp3.1\ibm_admin.Shared.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\bin\Debug\netcoreapp3.1\ibm_admin.Shared.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.csproj.AssemblyReference.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.AssemblyInfo.cs
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Shared\obj\Debug\netcoreapp3.1\ibm_admin.Shared.pdb

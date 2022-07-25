@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	  <DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ibm_admin.Shared\ibm_admin.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.csproj.AssemblyReference.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.AssemblyInfo.cs
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\bin\Debug\netcoreapp3.1\ibm_admin.DataAcess.deps.json
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\bin\Debug\netcoreapp3.1\ibm_admin.DataAcess.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\bin\Debug\netcoreapp3.1\ibm_admin.DataAcess.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\bin\Debug\netcoreapp3.1\ibm_admin.Models.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\bin\Debug\netcoreapp3.1\ibm_admin.Models.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.csproj.CopyComplete
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.DataAcess\obj\Debug\netcoreapp3.1\ibm_admin.DataAcess.pdb

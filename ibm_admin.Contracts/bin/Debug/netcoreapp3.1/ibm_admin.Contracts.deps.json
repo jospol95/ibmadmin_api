@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ibm_admin.Contracts/1.0.0": {
+        "dependencies": {
+          "ibm_admin.Shared": "1.0.0"
+        },
+        "runtime": {
+          "ibm_admin.Contracts.dll": {}
+        }
+      },
+      "ibm_admin.Shared/1.0.0": {
+        "runtime": {
+          "ibm_admin.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ibm_admin.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ibm_admin.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

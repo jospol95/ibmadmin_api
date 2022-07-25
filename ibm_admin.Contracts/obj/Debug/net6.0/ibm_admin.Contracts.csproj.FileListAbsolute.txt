@@ -1,0 +1,15 @@
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.AssemblyInfo.cs
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\bin\Debug\net6.0\ibm_admin.Contracts.deps.json
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\bin\Debug\net6.0\ibm_admin.Contracts.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\bin\Debug\net6.0\ibm_admin.Contracts.pdb
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\bin\Debug\net6.0\ibm_admin.Shared.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\bin\Debug\net6.0\ibm_admin.Shared.pdb
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.csproj.AssemblyReference.cache
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.csproj.CopyComplete
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\refint\ibm_admin.Contracts.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ibm_admin.Contracts.pdb
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Contracts\obj\Debug\net6.0\ref\ibm_admin.Contracts.dll

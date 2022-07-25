@@ -1,0 +1,13 @@
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.csproj.AssemblyReference.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.AssemblyInfo.cs
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\bin\Debug\netcoreapp3.1\ibm_admin.Contracts.deps.json
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\bin\Debug\netcoreapp3.1\ibm_admin.Contracts.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\bin\Debug\netcoreapp3.1\ibm_admin.Contracts.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\bin\Debug\netcoreapp3.1\ibm_admin.Shared.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\bin\Debug\netcoreapp3.1\ibm_admin.Shared.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.csproj.CopyComplete
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Contracts\obj\Debug\netcoreapp3.1\ibm_admin.Contracts.pdb

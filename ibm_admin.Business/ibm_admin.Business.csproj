@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	  <DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ibm_admin.Contracts\ibm_admin.Contracts.csproj" />
+    <ProjectReference Include="..\ibm_admin.Dapper\ibm_admin.Dapper.csproj" />
+    <ProjectReference Include="..\ibm_admin.Models\ibm_admin.Models.csproj" />
+  </ItemGroup>
+
+</Project>

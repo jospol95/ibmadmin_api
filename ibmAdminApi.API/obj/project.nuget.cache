@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zE7eT5JfxL6/FcXFPEO53gRgYm71zW9HL+9Cr8n0FaZ2Npl7NHX2tbEqi0iqNL9heFtcdrU7OnRFyMqAHWUudg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jos_o\\Documents\\IBM\\ibmAdminApi\\ibmAdminApi\\ibmAdminApi.API\\ibmAdminApi.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jos_o\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

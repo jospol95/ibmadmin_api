@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ibm_admin.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ibm_admin.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ibm_admin.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ibm_admin.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ibm_admin.Shared/ibm_admin.Shared.csproj",
+      "msbuildProject": "../ibm_admin.Shared/ibm_admin.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ibm_admin.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jos_o\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jos_o\\Documents\\IBM\\ibmAdminApi\\ibmAdminApi\\ibm_admin.Contracts\\ibm_admin.Contracts.csproj",
+      "projectName": "ibm_admin.Contracts",
+      "projectPath": "C:\\Users\\jos_o\\Documents\\IBM\\ibmAdminApi\\ibmAdminApi\\ibm_admin.Contracts\\ibm_admin.Contracts.csproj",
+      "packagesPath": "C:\\Users\\jos_o\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jos_o\\Documents\\IBM\\ibmAdminApi\\ibmAdminApi\\ibm_admin.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\jos_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\jos_o\\Documents\\IBM\\ibmAdminApi\\ibmAdminApi\\ibm_admin.Shared\\ibm_admin.Shared.csproj": {
+              "projectPath": "C:\\Users\\jos_o\\Documents\\IBM\\ibmAdminApi\\ibmAdminApi\\ibm_admin.Shared\\ibm_admin.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

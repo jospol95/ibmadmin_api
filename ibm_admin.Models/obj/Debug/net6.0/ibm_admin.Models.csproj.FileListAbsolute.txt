@@ -1,0 +1,12 @@
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.AssemblyInfo.cs
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\bin\Debug\net6.0\ibm_admin.Models.deps.json
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\bin\Debug\net6.0\ibm_admin.Models.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\bin\Debug\net6.0\ibm_admin.Models.pdb
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.csproj.AssemblyReference.cache
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\refint\ibm_admin.Models.dll
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ibm_admin.Models.pdb
+C:\Users\jos_o\Documents\IBM\ibm_admin\ibm_admin.Models\obj\Debug\net6.0\ref\ibm_admin.Models.dll

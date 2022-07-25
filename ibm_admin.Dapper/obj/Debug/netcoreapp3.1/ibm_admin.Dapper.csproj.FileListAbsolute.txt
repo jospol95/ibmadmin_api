@@ -1,0 +1,10 @@
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.csproj.AssemblyReference.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.AssemblyInfoInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.AssemblyInfo.cs
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\bin\Debug\netcoreapp3.1\ibm_admin.Dapper.deps.json
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\bin\Debug\netcoreapp3.1\ibm_admin.Dapper.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\bin\Debug\netcoreapp3.1\ibm_admin.Dapper.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Dapper\obj\Debug\netcoreapp3.1\ibm_admin.Dapper.pdb
