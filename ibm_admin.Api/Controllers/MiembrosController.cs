@@ -1,4 +1,5 @@
-﻿using ibm_admin.Server.CQRS.Queries.Miembros;
+﻿using ibm_admin.Api.CQRS.Commands.Miembros;
+using ibm_admin.Server.CQRS.Queries.Miembros;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -16,20 +17,35 @@ namespace ibm_admin.Server.Controllers.Api
         {
             _mediator = mediator;
         }
-        [HttpGet("Get/{pagActual}/{tamPagina}")]
+        //[HttpGet("Get/{pagActual}/{tamPagina}")]
+        [HttpGet]
         public async Task<IActionResult> Get(int pagActual, int tamPagina)
         {
             try
             {
                 var request = new ObtenerMiembrosConPaginacionQuery(pagActual, tamPagina);
-                var menuItems = await _mediator.Send(request);
-                return Ok(menuItems);
+                var miembros = await _mediator.Send(request);
+                return Ok(miembros);
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(CreateOrUpdateMiembroCommand miembro)
+        {
+            try
+            {
+                var miembroAddedOrUpdated = await _mediator.Send(miembro);
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

@@ -30,13 +30,21 @@ namespace ibm_admin.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            services.AddControllers().AddJsonOptions(jsonOptions =>
+            {
+                //Return Pascal Case
+                jsonOptions.JsonSerializerOptions.PropertyNamingPolicy = null;
+            });
+
             //Dapper
             services.AddSingleton<DapperContext>();
             //Media TR CQRS
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddScoped<IMenuService, MenuService>();
             services.AddScoped<IMiembrosService, MiembrosService>();
+
+            //Swagger
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +53,14 @@ namespace ibm_admin.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
+                app.UseSwagger();
+                app.UseSwaggerUI();
+
+                app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+                }
 
             app.UseHttpsRedirection();
 

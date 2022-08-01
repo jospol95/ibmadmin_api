@@ -42,3 +42,8 @@ C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\net
 C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\ibm_admin.Business.pdb
 C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\ibm_admin.Dapper.pdb
 C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\ibm_admin.Models.pdb
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jos_o\Documents\IBM\ibmAdminApi\ibmAdminApi\ibm_admin.Api\obj\Debug\netcoreapp3.1\ibm_admin.Api.MvcApplicationPartsAssemblyInfo.cs
