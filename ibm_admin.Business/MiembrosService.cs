@@ -64,6 +64,30 @@ namespace ibm_admin.Business
             }
         }
 
+        public async Task<MiembroViewModel> ObtenerMiembroInfo(int miembroId)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                var parameters = new DynamicParameters();
+                parameters.Add("@id_miembro", miembroId);
+
+                try
+                {
+                    var miembro = await connection.QueryAsync<MiembroViewModel>(
+                    "dbo.InfoMiembroIndividual ",
+                    parameters,
+                    commandType: CommandType.StoredProcedure);
+                    
+                    return miembro.FirstOrDefault();
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+
+            }
+        }
+
         public async  Task<PaginationResultViewModel<List<MiembroViewModel>>> ObtenerMiembrosConPaginacion(int pag, int tamPag)
         {
             using (var connection = _dbContext.CreateConnection())

@@ -17,5 +17,6 @@ namespace ibm_admin.Contracts
            string nombre, string apellido, string profesion, string direccion, string genero,
            string estadoCivil
            );
+        Task<MiembroViewModel> ObtenerMiembroInfo(int miembroId);
     }
 }
