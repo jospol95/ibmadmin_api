@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '5082b844-1241-4808-b5b2-52d0f4a7da87'
   imageRepository: 'ibmadminapi'
   containerRegistry: 'ibmappscontainerregistry.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/ibm_admin.Api/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
