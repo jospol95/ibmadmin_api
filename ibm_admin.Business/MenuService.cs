@@ -36,7 +36,7 @@ namespace ibm_admin.Business
                 }
                 catch(Exception ex)
                 {
-                    throw new Exception();
+                    throw ex;
                 }
                 
             }

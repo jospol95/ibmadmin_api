@@ -29,7 +29,6 @@ namespace IBM_Yoda_Admin.CQRS.Queries.Menu
         async Task<List<MenuViewModel>> IRequestHandler<ObternerItemsMenuQuery, List<MenuViewModel>>.Handle(ObternerItemsMenuQuery request, CancellationToken cancellationToken)
         {
             var menu = await _menuService.ObtenerItemsConAccesoAsync(request.IdUsuario);
-            Console.WriteLine(menu);
             return menu;
         }
     }
