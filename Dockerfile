@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["ibm_admin.Api.csproj", "./"]
+COPY ["ibm_admin.Api/ibm_admin.Api.csproj", "ibm_admin.Api/"]
 RUN dotnet restore "ibm_admin.Api.csproj"
 COPY . .
 WORKDIR "/src/ibm_admin.Api"
