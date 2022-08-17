@@ -45,7 +45,7 @@ namespace ibm_admin.Business
                 parameters.Add("@fecha_primera_vez_congresacion", fechaPrimeraVezCongregado);
                 parameters.Add("@fecha_nacimiento", fechaNacimiento);
                 parameters.Add("@nombre", nombre);
-                parameters.Add("@apellido", email);
+                parameters.Add("@apellido", apellido);
 
                 try
                 {
@@ -113,7 +113,7 @@ namespace ibm_admin.Business
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception();
+                    throw ex;
                 }
 
             }
