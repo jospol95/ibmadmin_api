@@ -26,6 +26,8 @@ namespace ibm_admin.Api
         }
 
         public IConfiguration Configuration { get; }
+        public string WebAppOrigin = "webapporigin";
+
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -45,6 +47,18 @@ namespace ibm_admin.Api
 
             //Swagger
             services.AddSwaggerGen();
+
+            //Cors
+            services.AddCors(options =>
+            {
+                options.AddPolicy(WebAppOrigin,
+                                      policy =>
+                                      {
+                                          policy.WithOrigins("https://icy-mud-02962fd0f.1.azurestaticapps.net/")
+                                                              .AllowAnyHeader()
+                                                              .AllowAnyMethod();
+                                      });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -66,7 +80,10 @@ namespace ibm_admin.Api
 
             app.UseRouting();
 
+            app.UseCors(WebAppOrigin);
+
             app.UseAuthorization();
+
 
             app.UseEndpoints(endpoints =>
             {
