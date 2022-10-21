@@ -1,3 +1,4 @@
+using ibm_admin.Api.Exceptions.Middleware;
 using ibm_admin.Business;
 using ibm_admin.Contracts;
 using ibm_admin.Dapper;
@@ -45,6 +46,11 @@ namespace ibm_admin.Api
             services.AddScoped<IMenuService, MenuService>();
             services.AddScoped<IMiembrosService, MiembrosService>();
 
+            //Add logger
+            //var serviceProvider = services.BuildServiceProvider();
+            //var logger = serviceProvider.GetService<ILogger<Startup>>();
+            //services.AddSingleton(typeof(ILogger), logger);
+
             //Swagger
             services.AddSwaggerGen();
 
@@ -62,7 +68,7 @@ namespace ibm_admin.Api
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)
         {
             if (env.IsDevelopment())
             {
@@ -75,6 +81,8 @@ namespace ibm_admin.Api
                 .AllowAnyMethod()
                 .AllowAnyHeader());
                 }
+
+            app.ConfigureExceptionHandler(logger);
 
             app.UseHttpsRedirection();
 

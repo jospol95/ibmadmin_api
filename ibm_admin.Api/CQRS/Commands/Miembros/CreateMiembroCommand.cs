@@ -1,4 +1,5 @@
 ﻿using ibm_admin.Contracts;
+using ibm_admin.Models;
 using MediatR;
 using System;
 using System.Threading;
@@ -10,12 +11,14 @@ namespace ibm_admin.Api.CQRS.Commands.Miembros
     {
         public int? Id { get; set; }
         public string Email { get; set; }
-        public int UsuarioCreacion { get; set; }
-        public int IdUsuarioModificacion { get; set; }
-        public DateTime FechaBautismo { get; set; }
-        public DateTime FechaConversion { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public DateTime FechaPrimeraVezCongregado { get; set; }
+        public int? UsuarioCreacion { get; set; }
+        public int? IdUsuarioModificacion { get; set; }
+        public int? MinisterioSirveId { get; set; }
+        public int? MinisterioMiembroId { get; set; }
+        public DateTime? FechaBautismo { get; set; }
+        public DateTime? FechaConversion { get; set; }
+        public DateTime? FechaNacimiento { get; set; }
+        public DateTime? FechaPrimeraVezCongregado { get; set; }
         public string Telefono1 { get; set; }
         public string Telefono2 { get; set; }
         public string Nombre { get; set; }
@@ -24,6 +27,7 @@ namespace ibm_admin.Api.CQRS.Commands.Miembros
         public string Direccion { get; set; }
         public string Genero { get; set; }
         public string EstadoCivil { get; set; }
+        public int DepartamentoId { get; set; }
 
     }
 
@@ -38,12 +42,27 @@ namespace ibm_admin.Api.CQRS.Commands.Miembros
         public async Task<bool> Handle(CreateOrUpdateMiembroCommand request, CancellationToken cancellationToken)
         {
             //TODO. GET MIEMBROS AFTER UPDATE
-            return await _miembrosService.CreateOrUpdateMiembro
-                (request.Id, request.Email, request.UsuarioCreacion, request.IdUsuarioModificacion,
-                request.FechaBautismo, request.FechaConversion, request.FechaNacimiento,
-                request.FechaPrimeraVezCongregado, request.Telefono1, request.Telefono2,
-                request.Nombre, request.Apellido, request.Profesion, request.Direccion, request.Genero,
-                request.EstadoCivil);
+            var miembro = new Miembro()
+            {
+                Id = request.Id,
+                Email = request.Email,
+                Apellido = request.Apellido,
+                Telefono1 = request.Telefono1,
+                Telefono2 = request.Telefono2,
+                MinisterioMiembroId = request.MinisterioMiembroId,
+                MinisterioSirveId = request.MinisterioSirveId,
+                Genero = request.Genero,
+                DepartamentoId = request.DepartamentoId,
+                FechaBautismo = request.FechaBautismo,
+                FechaConversion = request.FechaConversion,
+                FechaNacimiento = request.FechaNacimiento,
+                FechaPrimeraVezCongregado = request.FechaPrimeraVezCongregado,
+                Direccion = request.Direccion,
+                Profesion = request.Profesion,
+                EstadoCivil = request.EstadoCivil
+            };
+
+            return await _miembrosService.CreateOrUpdateMiembro(miembro);
         }
     }
 }

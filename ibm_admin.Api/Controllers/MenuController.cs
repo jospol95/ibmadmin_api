@@ -3,6 +3,7 @@ using IBM_Yoda_Admin.CQRS.Queries.Menu;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
@@ -13,10 +14,12 @@ namespace ibm_admin.Server.Controllers.Menu
     public class MenuController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly ILogger _logger;
 
-        public MenuController(IMediator mediator)
+        public MenuController(IMediator mediator, ILogger<MenuController> logger)
         {
             _mediator = mediator;
+            _logger = logger;
         }
         [HttpGet]
         public async Task<IActionResult> Get()
